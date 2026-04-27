@@ -16,95 +16,86 @@
 
 I am a Full Stack Developer specialized in **Python Django** and **ASP.NET Core MVC**.
 
-I focus on:
-- Backend development
-- REST API systems
-- Secure authentication systems
-- Database architecture
-- Scalable web applications
+I focus on building real-world, production-ready applications with strong backend architecture, secure authentication systems, and scalable APIs.
+
+I enjoy solving complex problems and turning ideas into working software.
+
+---
+
+## 🚀 HERO PROJECTS
+
+---
+
+### 🐍 Django Hero Project — Bike Source (Live)
+
+🚀 Full Stack Motorcycle Marketplace System built with Django.
+
+🔗 Live Demo: https://bike-source-1.onrender.com/
+
+### 🔥 Key Features:
+- User authentication system
+- Product listing & management
+- Admin dashboard
+- CRUD operations
+- REST API integration
+- Responsive UI design
+
+🛠 Tech Stack:
+Django, Django REST Framework, MySQL, Bootstrap
+
+---
+
+### ⚙️ ASP.NET Core Hero Project — Management System
+
+🚀 Role-based Admin Management System built with ASP.NET Core MVC.
+
+🔗 Live Demo: Coming Soon
+
+### 🔥 Key Features:
+- Role-based authentication (Admin/User)
+- Secure login system
+- CRUD management system
+- Admin dashboard
+- Entity Framework Core integration
+
+🛠 Tech Stack:
+ASP.NET Core MVC, C#, Entity Framework Core, SQL Server
 
 ---
 
 ## 🚀 Tech Stack
 
 ### 🐍 Python / Django
-- Python
-- Django
-- Django REST Framework
-- REST API Development
-- JWT Authentication
-- CRUD Applications
-
----
+Python, Django, Django REST Framework, JWT Authentication, REST API Development
 
 ### ⚙️ .NET Stack
-- C#
-- ASP.NET Core MVC
-- Razor Pages
-- Entity Framework Core
-- Identity Authentication
-- Role-Based Access Control
-
----
+C#, ASP.NET Core MVC, Razor Pages, Entity Framework Core, Identity
 
 ### 🎨 Frontend
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- Responsive UI Design
+HTML5, CSS3, JavaScript, Bootstrap, Responsive Design
 
----
-
-### 🗄️ Database
-- MySQL
-- PostgreSQL
-- SQL Server
-- SQLite
-
----
+### 🗄️ Databases
+MySQL, PostgreSQL, SQL Server, SQLite
 
 ### ☁️ DevOps / Cloud
-- Docker (Basics)
-- CI/CD Concepts
-- AWS Fundamentals
-- VPS Management
-
----
+Docker (Basics), CI/CD Concepts, AWS Fundamentals, VPS Hosting
 
 ### 🖥️ Systems & Servers
-- Linux (Ubuntu, CentOS, RedHat)
-- Windows Server Basics
-- Nginx / Apache Configuration
-- SSL Setup & Deployment
-
----
+Linux (Ubuntu, CentOS, RedHat), Windows Server, Nginx, Apache, SSL Configuration
 
 ### 🛠 Tools
-- Git & GitHub
-- VS Code
-- Visual Studio
-- Postman
-
----
-
-## 📌 Featured Projects
-
-🚀 Bike Source – Motorcycle Buy & Sell Platform  
-🌐 Resume Builder Web App  
-🔐 Authentication System (Role Based)  
-⚙️ REST API Projects  
-📊 CRUD Management System
+Git, GitHub, VS Code, Visual Studio, Postman
 
 ---
 
 ## 🏆 Strengths
 
-✔ Strong Backend Engineering  
-✔ Full Stack Capability  
+✔ Full Stack Development (Python + .NET)  
+✔ Strong Backend Engineering Skills  
 ✔ Real Project Experience  
-✔ Clean Code & Architecture  
+✔ Clean Architecture Understanding  
 ✔ Fast Learner & Problem Solver  
+✔ API & Database Design Expertise  
 
 ---
 
@@ -113,7 +104,7 @@ I focus on:
 ✔ Junior Software Engineer  
 ✔ Backend Developer  
 ✔ Full Stack Developer  
-✔ IT Support Engineer / System Engineer  
+✔ Internship Opportunities  
 
 ---
 
@@ -161,12 +152,12 @@ I focus on:
 
 ---
 
-## 📫 Contact
+## 📫 Contact Me
 
-📧 debodiptosamadder@gmail.com
+📧 Email: debodiptosamadder@gmail.com  
 
 ---
 
 <p align="center">
-⭐ "Build. Learn. Improve. Repeat."
+⭐ "Consistency beats talent."
 </p>
