@@ -3,7 +3,7 @@
 <h3 align="center">🚀 Full Stack Developer | Python Django | ASP.NET Core | Backend Engineer</h3>
 
 <p align="center">
-💻 Building scalable web apps • Secure backend systems • Clean architecture solutions  
+💻 Building scalable web applications • Secure backend systems • Clean architecture solutions  
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@ I am a Full Stack Developer specialized in **Python Django** and **ASP.NET Core 
 I focus on:
 - Backend development
 - REST API systems
-- Secure authentication
+- Secure authentication systems
 - Database architecture
 - Scalable web applications
 
@@ -113,9 +113,7 @@ I focus on:
 ✔ Junior Software Engineer  
 ✔ Backend Developer  
 ✔ Full Stack Developer  
-✔ IT Support Engineer / System Engineer
-
----
+✔ IT Support Engineer / System Engineer  
 
 ---
 
@@ -129,12 +127,16 @@ I focus on:
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=debodipto&theme=tokyonight" />
 </p>
 
----
-
-## 💻 Most Used Languages
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=debodipto&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 📈 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=debodipto&theme=tokyo-night" />
 </p>
 
 ---
@@ -151,30 +153,20 @@ I focus on:
 
 ---
 
-## 📈 Activity Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=debodipto&theme=tokyo-night" />
-</p>
-
----
-
 ## 🎯 Developer Motto
 
 <p align="center">
 💡 Build → Break → Learn → Improve → Repeat
 </p>
 
-## 📫 Contact Me
+---
 
-📧 Email: debodiptosamadder@gmail.com  
+## 📫 Contact
+
+📧 debodiptosamadder@gmail.com
 
 ---
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=debodipto&show_icons=true&theme=tokyonight)
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=debodipto&theme=tokyonight)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=debodipto&layout=compact&theme=tokyonight)
 <p align="center">
 ⭐ "Build. Learn. Improve. Repeat."
 </p>
