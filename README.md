@@ -110,10 +110,10 @@ I focus on:
 
 ## 🎯 Currently Open For
 
-✔ Internship  
 ✔ Junior Software Engineer  
 ✔ Backend Developer  
 ✔ Full Stack Developer  
+✔ IT Support Engineer / System Engineer
 
 ---
 
