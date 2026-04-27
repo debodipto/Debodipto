@@ -49,7 +49,7 @@ Django, Django REST Framework, MySQL, Bootstrap
 
 🚀 Role-based Admin Management System built with ASP.NET Core MVC.
 
-🔗 Live Demo: Coming Soon
+🔗 Live Demo: resuniqai-1.onrender.com
 
 ### 🔥 Key Features:
 - Role-based authentication (Admin/User)
