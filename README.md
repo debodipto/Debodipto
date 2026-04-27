@@ -170,7 +170,11 @@ I focus on:
 📧 Email: debodiptosamadder@gmail.com  
 
 ---
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=debodipto&show_icons=true&theme=tokyonight)
 
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=debodipto&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=debodipto&layout=compact&theme=tokyonight)
 <p align="center">
 ⭐ "Build. Learn. Improve. Repeat."
 </p>
