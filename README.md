@@ -1,62 +1,128 @@
-# Hi 👋 I'm Debodipto Samadder
+<h1 align="center">Hi 👋, I'm Debodipto Samadder</h1>
 
-## 🚀 Full Stack Developer | Python Django | ASP.NET Core
+<h3 align="center">🚀 Full Stack Developer | Python Django | ASP.NET Core | Backend Engineer</h3>
 
-💻 Building scalable web applications, backend systems, and secure solutions.
-📍 Dhaka, Bangladesh
-💼 Open to Work
+<p align="center">
+💻 Building scalable web apps • Secure backend systems • Clean architecture solutions  
+</p>
+
+<p align="center">
+📍 Dhaka, Bangladesh • 💼 Open to Work • 🔥 Software Engineer
+</p>
 
 ---
 
-## 🧑‍💻 Tech Stack
+## 🧑‍💻 About Me
 
-### Backend
+I am a Full Stack Developer specialized in **Python Django** and **ASP.NET Core MVC**.
 
-Python, Django, Django REST Framework
-C#, ASP.NET Core MVC
+I focus on:
+- Backend development
+- REST API systems
+- Secure authentication
+- Database architecture
+- Scalable web applications
 
-### Frontend
+---
 
-HTML5, CSS3, JavaScript, Bootstrap
+## 🚀 Tech Stack
 
-### Databases
+### 🐍 Python / Django
+- Python
+- Django
+- Django REST Framework
+- REST API Development
+- JWT Authentication
+- CRUD Applications
 
-MySQL, PostgreSQL, SQL Server, SQLite
+---
 
-### DevOps / Cloud
+### ⚙️ .NET Stack
+- C#
+- ASP.NET Core MVC
+- Razor Pages
+- Entity Framework Core
+- Identity Authentication
+- Role-Based Access Control
 
-Docker, CI/CD Concepts, AWS Fundamentals, VPS Management
+---
 
-### Systems / Servers
+### 🎨 Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- Responsive UI Design
 
-Ubuntu, CentOS, RedHat, Windows
-Nginx, Apache
-SSL Configuration
+---
 
-### Tools
+### 🗄️ Database
+- MySQL
+- PostgreSQL
+- SQL Server
+- SQLite
 
-Git, GitHub, VS Code, Visual Studio, Postman
+---
+
+### ☁️ DevOps / Cloud
+- Docker (Basics)
+- CI/CD Concepts
+- AWS Fundamentals
+- VPS Management
+
+---
+
+### 🖥️ Systems & Servers
+- Linux (Ubuntu, CentOS, RedHat)
+- Windows Server Basics
+- Nginx / Apache Configuration
+- SSL Setup & Deployment
+
+---
+
+### 🛠 Tools
+- Git & GitHub
+- VS Code
+- Visual Studio
+- Postman
 
 ---
 
 ## 📌 Featured Projects
 
-🚀 Bike Source – Motorcycle Buy & Sell Platform
-🌐 Resume Builder Web App
-🔐 Authentication Dashboard
-⚙️ REST API Projects
+🚀 Bike Source – Motorcycle Buy & Sell Platform  
+🌐 Resume Builder Web App  
+🔐 Authentication System (Role Based)  
+⚙️ REST API Projects  
+📊 CRUD Management System
 
 ---
 
-## 🎯 Open To Opportunities
+## 🏆 Strengths
 
-✔ Junior Software Engineer
-✔ Full Stack Developer
-✔ Backend Developer
-✔ IT Support Engineer / System Engineer
+✔ Strong Backend Engineering  
+✔ Full Stack Capability  
+✔ Real Project Experience  
+✔ Clean Code & Architecture  
+✔ Fast Learner & Problem Solver  
 
 ---
 
-## 📫 Contact
+## 🎯 Currently Open For
 
-[debodiptosamadder@gmail.com](mailto:debodiptosamadder@gmail.com)
+✔ Internship  
+✔ Junior Software Engineer  
+✔ Backend Developer  
+✔ Full Stack Developer  
+
+---
+
+## 📫 Contact Me
+
+📧 Email: debodiptosamadder@gmail.com  
+
+---
+
+<p align="center">
+⭐ "Build. Learn. Improve. Repeat."
+</p>
