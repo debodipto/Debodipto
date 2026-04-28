@@ -101,10 +101,10 @@ Git, GitHub, VS Code, Visual Studio, Postman
 
 ## 🎯 Currently Open For
 
-✔ Junior Software Engineer  
+✔ Software Engineer  
 ✔ Backend Developer  
 ✔ Full Stack Developer  
-✔ Internship Opportunities  
+✔ IT Support Engineer / System Engineer
 
 ---
 
