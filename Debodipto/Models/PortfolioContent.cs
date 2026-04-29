@@ -147,7 +147,7 @@ public static class PortfolioContent
                 {
                     Degree = "Bachelor of Science in Computer Science & Engineering",
                     Institute = "University of Asia Pacific (UAP), Dhaka, Bangladesh",
-                    Details = "Passing Year: 2025 | CGPA: 3.01/4.00"
+                    Details = "Passing Year: 2025"
                 },
                 new EducationItem
                 {
