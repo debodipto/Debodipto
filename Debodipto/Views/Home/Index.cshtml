@@ -1,0 +1,236 @@
+@model PortfolioViewModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<main class="page-shell">
+    <section class="hero section">
+        <div class="hero-copy reveal">
+            <p class="eyebrow">Portfolio / Full Stack + Systems + AI</p>
+            <p class="intro-line">Hello, I am</p>
+            <h1>@Model.Name</h1>
+            <h2>@Model.Headline</h2>
+            <p class="lead">@Model.Summary</p>
+
+            <div class="hero-actions">
+                <a href="#experience" class="button button-primary">View Experience</a>
+                <a href="#skills" class="button button-secondary">Explore Skills</a>
+            </div>
+
+            <div class="highlight-grid">
+                @foreach (var item in Model.Highlights)
+                {
+                    <article class="highlight-card">
+                        <span class="highlight-tag">Focus</span>
+                        <p>@item</p>
+                    </article>
+                }
+            </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay-1">
+            <div class="profile-frame">
+                <img src="@Url.Content(Model.PhotoPath)" alt="Portrait of @Model.Name" />
+            </div>
+            <div class="metric-card">
+                <span>Core identity</span>
+                <strong>Developer + System Engineer + AI Worker</strong>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+        <div class="section-heading">
+            <p class="eyebrow">Capabilities</p>
+            <h3>Technical skills shaped for product delivery and infrastructure reliability.</h3>
+        </div>
+
+        <div class="skills-layout">
+            @foreach (var group in Model.SkillGroups)
+            {
+                <article class="skill-panel">
+                    <h4>@group.Title</h4>
+                    <div class="chip-wrap">
+                        @foreach (var item in group.Items)
+                        {
+                            <span class="chip">@item</span>
+                        }
+                    </div>
+                </article>
+            }
+        </div>
+    </section>
+
+    <section class="section feature-project reveal">
+        <div class="feature-copy">
+            <p class="eyebrow">@Model.FeaturedProject.Label</p>
+            <h3>@Model.FeaturedProject.Title</h3>
+            <p class="lead">@Model.FeaturedProject.Summary</p>
+            <div class="hero-actions feature-actions">
+                <a href="@Model.FeaturedProject.LiveUrl" class="button button-primary" target="_blank" rel="noreferrer">Live Demo</a>
+                <a href="@Model.FeaturedProject.GitHubUrl" class="button button-secondary" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+        </div>
+
+        <div class="feature-panels">
+            <article class="feature-card">
+                <h4>Tech Stack</h4>
+                <div class="chip-wrap">
+                    @foreach (var item in Model.FeaturedProject.Technologies)
+                    {
+                        <span class="chip">@item</span>
+                    }
+                </div>
+            </article>
+
+            <article class="feature-card">
+                <h4>Project Impact</h4>
+                <div class="feature-list">
+                    @foreach (var item in Model.FeaturedProject.Outcomes)
+                    {
+                        <p>@item</p>
+                    }
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section reveal">
+        <div class="section-heading">
+            <p class="eyebrow">Professional Projects</p>
+            <h3>Selected .NET products built for real workflows, security, and maintainability.</h3>
+        </div>
+
+        <div class="project-grid">
+            @foreach (var item in Model.Projects)
+            {
+                <article class="feature-card project-card">
+                    <h4>@item.Title</h4>
+                    <p class="project-tech">@item.TechStack</p>
+                    <div class="feature-list">
+                        @foreach (var point in item.Highlights)
+                        {
+                            <p>@point</p>
+                        }
+                    </div>
+                    <div class="project-links">
+                        <a href="@item.LiveUrl" class="social-pill" target="_blank" rel="noreferrer">Live URL</a>
+                        <a href="@item.GitHubUrl" class="social-pill" target="_blank" rel="noreferrer">GitHub</a>
+                    </div>
+                </article>
+            }
+        </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+        <div class="section-heading">
+            <p class="eyebrow">Career Journey</p>
+            <h3>Experience that connects engineering discipline with practical execution.</h3>
+        </div>
+
+        <div class="timeline">
+            @foreach (var item in Model.Experiences)
+            {
+                <article class="timeline-card">
+                    <p class="timeline-period">@item.Period</p>
+                    <h4>@item.Role</h4>
+                    <p>@item.Company</p>
+                    <div class="timeline-points">
+                        @foreach (var point in item.Highlights)
+                        {
+                            <p>@point</p>
+                        }
+                    </div>
+                </article>
+            }
+        </div>
+    </section>
+
+    <section class="section dual-grid reveal">
+        <div>
+            <div class="section-heading">
+                <p class="eyebrow">Education</p>
+                <h3>Academic background</h3>
+            </div>
+            <div class="stack-list">
+                @foreach (var item in Model.Education)
+                {
+                    <article class="info-card">
+                        <h4>@item.Degree</h4>
+                        <p>@item.Institute</p>
+                        <span>@item.Details</span>
+                    </article>
+                }
+            </div>
+        </div>
+
+        <div>
+            <div class="section-heading">
+                <p class="eyebrow">Leadership</p>
+                <h3>Extracurricular highlights</h3>
+            </div>
+            <div class="stack-list">
+                @foreach (var item in Model.Activities)
+                {
+                    <article class="info-card">
+                        <p>@item</p>
+                    </article>
+                }
+            </div>
+        </div>
+    </section>
+
+    <section class="section thesis-section reveal">
+        <div class="feature-copy">
+            <p class="eyebrow">@Model.Thesis.Label</p>
+            <h3>@Model.Thesis.Title</h3>
+            <p class="lead">@Model.Thesis.Summary</p>
+        </div>
+
+        <div class="thesis-points">
+            @foreach (var item in Model.Thesis.Points)
+            {
+                <article class="info-card thesis-card">
+                    <p>@item</p>
+                </article>
+            }
+        </div>
+    </section>
+
+    <section class="section callout reveal">
+        <p class="eyebrow">What I Build</p>
+        <h3>I create modern web solutions, reliable backend systems, and deployment-ready experiences with AI-assisted productivity.</h3>
+        <p>From Django APIs to ASP.NET MVC applications and system-level troubleshooting, I enjoy delivering clean, maintainable solutions that are ready for real users.</p>
+    </section>
+
+    <section class="section contact-section reveal">
+        <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h3>Let's connect for opportunities, collaboration, or technical work.</h3>
+        </div>
+
+        <div class="contact-grid">
+            <article class="info-card">
+                <h4>Location</h4>
+                <p>@Model.Contact.Location</p>
+            </article>
+
+            <article class="info-card">
+                <h4>Phone</h4>
+                <p><a href="tel:+8801728825929" class="contact-link">@Model.Contact.Phone</a></p>
+            </article>
+
+            <article class="info-card">
+                <h4>Email</h4>
+                <p><a href="mailto:@Model.Contact.Email" class="contact-link">@Model.Contact.Email</a></p>
+            </article>
+        </div>
+
+        <div class="social-links">
+            @foreach (var item in Model.Contact.Links)
+            {
+                <a href="@item.Url" class="social-pill" target="_blank" rel="noreferrer">@item.Label</a>
+            }
+        </div>
+    </section>
+</main>
