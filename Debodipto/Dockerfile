@@ -13,4 +13,4 @@ COPY --from=build /app/publish .
 ENV ASPNETCORE_URLS=http://+:10000
 EXPOSE 10000
 
-ENTRYPOINT ["dotnet", "Debodipto.dll"]
+ENTRYPOINT ["dotnet", "find /app -name '*.dll' | head -n 1"]
